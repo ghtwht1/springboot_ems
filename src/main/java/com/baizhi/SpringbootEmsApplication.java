@@ -14,6 +14,7 @@ import org.springframework.http.converter.HttpMessageConverter;
 @MapperScan("com.baizhi.dao")
 public class SpringbootEmsApplication {
     public static void main(String[] args) {
+        
         SpringApplication.run(SpringbootEmsApplication.class, args);
     }
 
