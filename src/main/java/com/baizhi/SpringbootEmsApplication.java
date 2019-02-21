@@ -28,6 +28,7 @@ public class SpringbootEmsApplication {
         // 3. 在converter中添加配置信息
         fasHttpMessageConverter.setFastJsonConfig(fastJsonConfig);
         HttpMessageConverter<?> converter=fasHttpMessageConverter;
+        
         return new HttpMessageConverters(converter);}
     }
 
