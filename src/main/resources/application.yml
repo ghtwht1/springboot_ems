@@ -1,0 +1,31 @@
+server:
+  port: 8989
+  context-path: /ems
+  #支持热部署
+  jsp-servlet:
+    init-parameters:
+      development: true
+spring:
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/ems
+    type: com.alibaba.druid.pool.DruidDataSource
+    username: root
+    password: 123456
+  #JSP视图解析器的动态参数
+  mvc:
+    view:
+      prefix: /
+      suffix: .jsp
+  #设置编码格式
+  http:
+    encoding:
+      charset: utf-8
+    multipart:
+      #单个文件上传大小限制
+      max-file-size: 10MB
+      #总上传的数据大小限制
+      max-request-size: 200MB
+mybatis:
+  mapper-locations: classpath:com/baizhi/mapper/*Mapper.xml
+  type-aliases-package: com.baizhi.entity
