@@ -29,6 +29,7 @@ public class SpringbootEmsApplication {
         fasHttpMessageConverter.setFastJsonConfig(fastJsonConfig);
         HttpMessageConverter<?> converter=fasHttpMessageConverter;
         
+        
         return new HttpMessageConverters(converter);}
     }
 
