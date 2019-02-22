@@ -1,4 +1,4 @@
-package com.baizhi.service.UserServiceImpl;
+package com.baizhi.service.impl;
 
 import com.baizhi.dao.UserDao;
 import com.baizhi.entity.User;

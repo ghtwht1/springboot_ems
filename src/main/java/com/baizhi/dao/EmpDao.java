@@ -5,7 +5,7 @@ import com.baizhi.entity.Emp;
 import java.util.List;
 
 public interface EmpDao {
-    
+
     List<Emp> getAll();
 
     int deleteByPrimaryKey(Integer id);
