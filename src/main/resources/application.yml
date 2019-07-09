@@ -1,7 +1,7 @@
 server:
   port: 8989
   context-path: /ems
-  #Ö§³ÖÈÈ²¿Êğ
+  #æ”¯æŒçƒ­éƒ¨ç½²1
   jsp-servlet:
     init-parameters:
       development: true
@@ -12,19 +12,19 @@ spring:
     type: com.alibaba.druid.pool.DruidDataSource
     username: root
     password: 123456
-  #JSPÊÓÍ¼½âÎöÆ÷µÄ¶¯Ì¬²ÎÊı
+  #JSPè§†å›¾è§£æå™¨çš„åŠ¨æ€å‚æ•°
   mvc:
     view:
       prefix: /
       suffix: .jsp
-  #ÉèÖÃ±àÂë¸ñÊ½
+  #è®¾ç½®ç¼–ç æ ¼å¼
   http:
     encoding:
       charset: utf-8
     multipart:
-      #µ¥¸öÎÄ¼şÉÏ´«´óĞ¡ÏŞÖÆ
+      #å•ä¸ªæ–‡ä»¶ä¸Šä¼ å¤§å°é™åˆ¶
       max-file-size: 10MB
-      #×ÜÉÏ´«µÄÊı¾İ´óĞ¡ÏŞÖÆ
+      #æ€»ä¸Šä¼ çš„æ•°æ®å¤§å°é™åˆ¶
       max-request-size: 200MB
 mybatis:
   mapper-locations: classpath:com/baizhi/mapper/*Mapper.xml
