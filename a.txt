@@ -1,3 +1,7 @@
 1.0
 2.0
+<<<<<<< HEAD
 master-update
+=======
+dev-update
+>>>>>>> dev
