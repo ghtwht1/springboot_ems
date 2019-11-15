@@ -3,8 +3,7 @@ package com.baizhi.dao;
 import com.baizhi.entity.User;
 
 public interface UserDao {
-    void a();
-    User select(String username);
+    User sele1ct1(String username);
     int deleteByPrimaryKey(Integer id);
 
     int insert(User record);
