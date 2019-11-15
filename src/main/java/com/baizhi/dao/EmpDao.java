@@ -6,7 +6,7 @@ import java.util.List;
 
 public interface EmpDao {
 
-    List<Emp> getAll2();
+    List<Emp> getAll1111();
 
     int deleteByPrimaryKey(Integer id);
 
