@@ -1,6 +1,5 @@
 package com.baizhi.service.impl;
 
-import com.baizhi.dao.EmpDao;
 import com.baizhi.entity.Emp;
 import com.baizhi.service.EmpService;
 import com.github.pagehelper.Page;

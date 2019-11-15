@@ -1,6 +1,5 @@
 package com.baizhi;
 
-import com.baizhi.dao.EmpDao;
 import com.baizhi.entity.Emp;
 import com.baizhi.service.EmpService;
 import org.junit.Test;
